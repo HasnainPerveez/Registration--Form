@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:gainsboro; /* Light purple background */
+    color: #171717;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-image: linear-gradient(to right, #fa5fff, #d9aeec);;
+    /* background-color: #9de7f0; White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Subtle shadow for depth */
+}
+
+fieldset {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px; /* Rounded corners */
+}
+
+legend {
+    background-color: #c70efa;
+    /*Goldcolorforsectiontitles*/color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: #f4061e;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c000f5; /* Green background for buttons */
+    color: white;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #5f1675; /* Darker green on hover */
+}

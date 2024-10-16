@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="registration form">
+    <meta name="description" content="“Mart: Your one-stop shop for quality products at unbeatable prices.”">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <h2>Registration Form</h2>
+    <fieldset class="personal">
+        <legend>Personal Information</legend>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name" >
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" min="0" placeholder="Enter age here">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="Gender" value="Male"> Male
+            <input type="radio" id="gender" name="Gender" value="Female"> Female
+        </div>
+        <div>
+            <label for="Birth">Date of Birth</label>
+            <input type="date" id="Birth">
+        </div>
+    </fieldset>
+    <fieldset class="education">
+        <legend>Education</legend>
+        <div>
+            <label for="qualification">Qualification</label>
+            <select name="qualification" id="qualification">
+                <option value="Matriculation">Matriculation</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Bachelor’s">Bachelor’s</option>
+                <option value="Master’s">Master’s</option>
+            </select>
+        </div>
+    </fieldset>
+    <fieldset class="hobbies">
+        <legend>Hobbies</legend>
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" name="interest" value="Reading">Reading
+            <input type="checkbox" name="interest" value="Sports">Sports
+            <input type="checkbox" name="interest" value="Gardening">Gardening
+        </div>
+    </fieldset>
+    <fieldset class="contact">
+        <legend>Contact</legend>
+        <div>
+            <label for="mobile">Phone Number</label>
+            <input type="number" id="mobile" min="0" placeholder="+92 300 0300030">
+        </div>
+        <div>
+            <label for="email">Subscribe to our Newsletter</label>
+            <input type="email" id="email" placeholder="abc@gmail.com">
+        </div>
+    </fieldset>
+    <fieldset class="feedback">
+        <legend>Feedback</legend>
+        <label for="massage">Comments</label>
+        <textarea name="Comments"
+        id="massage"
+        rows="4"
+        cols="30"
+        placeholder="Write Your Comment">
+        </textarea>
+    </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
